@@ -6,18 +6,19 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "drizzle": "npx tsx app/db/test.ts"
   },
   "dependencies": {
     "@headlessui/react": "2.2.2",
     "@heroicons/react": "2.2.0",
     "@react-router/node": "7.5.1",
     "@react-router/serve": "7.5.1",
-    "@xata.io/client": "0.30.1",
     "clsx": "2.1.1",
     "dotenv": "16.5.0",
     "drizzle-orm": "0.42.0",
     "isbot": "5.1.26",
+    "pg": "8.14.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-router": "7.5.1"
@@ -26,6 +27,7 @@
     "@react-router/dev": "7.5.1",
     "@tailwindcss/vite": "4.1.4",
     "@types/node": "22",
+    "@types/pg": "8.11.13",
     "@types/react": "19.1.2",
     "@types/react-dom": "19.1.2",
     "drizzle-kit": "0.31.0",
